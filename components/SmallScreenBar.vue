@@ -7,10 +7,10 @@
   </div>
   <div v-if="clicked" class="bg-[#fddfb2] w-full py-3">
     <div class="flex flex-col gap-5 text-lg">
-      <a href="#" class="hover:bg-primary/70 w-full p-2">Home</a>
-      <a href="#" class="hover:bg-primary/70 w-full p-2">About</a>
-      <a href="#" class="hover:bg-primary/70 w-full p-2">Partners</a>
-      <a href="#" class="hover:bg-primary/70 w-full p-2">Services</a>
+      <a href="#home" class="hover:bg-primary/70 w-full p-2">Home</a>
+      <a href="#about" class="hover:bg-primary/70 w-full p-2">About</a>
+      <a href="#partners" class="hover:bg-primary/70 w-full p-2">Partners</a>
+      <a href="#services" class="hover:bg-primary/70 w-full p-2">Services</a>
       <a href="#" class="flex bg-primary px-14 py-4 ml-5 rounded-full text-sm w-3/4 font-semibold text-white border-0">
         <Icon name="mdi:lock-open" size="20" class="w-5 mr-3 text-white"/>
         Login Management

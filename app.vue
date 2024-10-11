@@ -1,6 +1,6 @@
 <template>
   <div class="min-h-screen bg-[#f8f8f8]">
-    <div class="h-[calc(100vh+6rem)] w-full">
+    <div class="h-[calc(100vh+6rem)] w-full" id="home">
       <TopBar />
       <SmallScreenBar />
       <div class="flex items-center font-extrabold justify-center gap-20 w-full min-h-screen bg-cover bg-no-repeat" style="background-image: url('/landing_picture.jpg');">
@@ -70,7 +70,7 @@
         />
       </div>
     </div>
-    <div class="pt-24 w-full">
+    <div class="pt-24 w-full" id="partners">
       <div class="flex flex-col py-5 md:py-10 gap-5 justify-center items-center">
         <div class="bg-primary text-white rounded-full px-2 py-1 text-xs self-center my-10">Partners</div>
         <h1 class="text-xl md:text-[40px] font-semibold py-2"> Implementing Partners </h1>
@@ -83,7 +83,7 @@
         </div>
       </div>
     </div>
-    <div class="flex flex-col py-10 gap-5 justify-center items-center pt-24">
+    <div class="flex flex-col py-10 gap-5 justify-center items-center pt-24" id="services">
         <div class="bg-primary text-white rounded-full px-2 py-1 text-xs self-center my-10">Services</div>
         <h1 class="text-xl md:text-[40px] font-semibold py-2">Services Offered</h1>
         <p class="text-sm md:text-base px-5 md:px-0 font-normal text-center leading-8">This platform is built to provide a multi-tier reporting and data tracking for the bridges programme.</p>
